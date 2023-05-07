@@ -16,7 +16,6 @@ function init () {
 
   apiStatus();
   fetchPlaces();
-  console.log("loaded");
 }
 
 function apiStatus () {
