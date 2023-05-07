@@ -11,7 +11,7 @@ function init () {
   $('.state_input').change(function () { obj = stateObj; checkedObjects.call(this, 2); });
   $('.city_input').change(function () { obj = cityObj; checkedObjects.call(this, 3); });
   apiStatus();
-  searchPlaces();
+  fetchPlaces();
 }
 
 function checkedObjects (nObject) {
